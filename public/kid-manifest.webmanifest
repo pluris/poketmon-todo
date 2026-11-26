@@ -1,0 +1,36 @@
+{
+  "id": "/kid",
+  "name": "Pleco — 나의 몬스터",
+  "short_name": "Pleco",
+  "description": "오늘의 할 일을 해내고 나만의 몬스터를 키워요.",
+  "lang": "ko",
+  "dir": "ltr",
+  "start_url": "/kid",
+  "scope": "/kid",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "any",
+  "background_color": "#FFF8EC",
+  "theme_color": "#FFB84D",
+  "categories": ["education", "lifestyle"],
+  "icons": [
+    {
+      "src": "/icons/kid-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/kid-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/kid-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
